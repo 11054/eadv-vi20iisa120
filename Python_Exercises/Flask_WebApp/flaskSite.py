@@ -12,5 +12,10 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route('/hack/')
+def hack():
+    return render_template("hack.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
