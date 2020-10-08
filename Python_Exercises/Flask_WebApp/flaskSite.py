@@ -1,4 +1,4 @@
-### From the console> pip3 install flask
+### Console:$ pip3 install flask virtualenv
 
 from flask import Flask, render_template
 
